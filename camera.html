@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Kwitter camera</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+    <h1 class="header">Kwitter Selfie App</h1>
+    <button onclick="take_snapshot()" class="btn btn-warning">Take Snapshot</button>
+    <div id="camera"></div>
+    <div id="results"></div>
+    <button onclick="sendImage()" class="btn btn-danger">Send Image</button>
+</center>
+<script src="camera.js"></script>
+</body>
+</html>
